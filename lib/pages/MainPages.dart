@@ -574,8 +574,8 @@ class _MainpageState extends State<Mainpage> {
                                                     null)
                                                   Text(
                                                       parcels[index]['isPayed']
-                                                          ? "Payed"
-                                                          : "Not Payed",
+                                                          ? "Paid"
+                                                          : "Not Paid",
                                                       style: TextStyle(
                                                           color: Colors.white,
                                                           fontSize: 16)),
